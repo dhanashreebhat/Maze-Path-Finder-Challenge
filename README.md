@@ -103,7 +103,7 @@ npx jest
   - Accepts JSON body with:
     ```json
     {
-      "maze": [[0, 1, ...], [...]],
+      "maze": [[0, 1, ..], [..]],
       "start": [x, y],
       "goal": [x, y]
     }
@@ -112,7 +112,7 @@ npx jest
   - Responds with:
     ```json
     {
-      "path": [...],
+      "path": [..],
       "visitedCount": 123,
       "pathLength": 15
     }
